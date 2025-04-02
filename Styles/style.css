@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 203, 0);
+    padding: 10px 0 10px 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 37px;
+}
+
+.how-happy {
+    display: flex;
+    width: 100%;
+}
+
+.how-happy img {
+    max-width: 50%;
+    height: auto;
+    margin: 77px 124px 310px 82px;
+}
+
+.text-happy {
+    margin-top: 145px;
+    width: 22%;
+}
+
+h1 {
+    font-size: 73px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.btn-more {
+    border: none;
+    width: 152px;
+    height: 40px;
+    font-weight: 800;
+    font-size: initial;
+    color: black;
+    background-color: rgb(245, 203, 0);
+}
+
+.can-help {
+    background-color: rgb(245, 203, 0);
+    display: flex;
+    align-items: center;
+}
+
+.text-help {
+    width: 30%;
+    margin: 143px 0 445px 98px;
+}
+
+.text-help p {
+    width: 59%;
+}
+
+#color-btn-more {
+    background-color: black;
+    color: white;
+    font-weight: 200;
+}
+
+.happiness-content {
+    filter: drop-shadow(14px 15px 14px rgb(88, 88, 88));
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    margin: 93px 127px 93px 103px;
+    background-color: rgb(230, 230, 230);
+}
+
+.happiness-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.happiness-text p {
+    width: 64%;
+}
+
+h2 {
+    padding-top: 49px;
+    color: rgb(245, 203, 0);
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.about p {
+    color: white;
+    width: 53%;
+    text-align: center;
+}
+
+.text-about {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 62px;
+}
+
+.our-team {
+    gap: 73px;
+    margin: 120px 0 124px 0;
+    justify-content: flex-end;
+    display: flex;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.text-team {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 38px;
+}
+
+.text-team p {
+    width: 39%;
+}
+
+h3 {
+    font-family: fantasy;
+    font-weight: unset;
+    font-size: 64px;
+}
+
+.method {
+    display: flex;
+    justify-content: space-around;
+    gap: 119px;
+    background-color: rgb(230, 230, 230);
+    padding: 103px 0 103px 0;
+}
+
+.text-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 28%;
+}
+
+.text-method p {
+    width: 73%;
+}
+
+.suscribe-father {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 98px;
+    padding: 115px 0 157px 132px;
+}
+
+.suscribe-form {
+    background-color: black;
+    color: white;
+    max-width: 575px;
+    max-height: 573px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 65px 0 45px 0;
+}
+
+.suscribe-form p {
+    width: 82%;
+    font-size: 13px;
+}
+
+.names {
+    display: flex;
+    gap: 12px;
+}
+
+#name,
+#surname {
+    width: 222px;
+    height: 33px;
+    background-color: black;
+    border: solid white;
+}
+
+#email,
+#password,
+#text {
+    width: 474px;
+    height: 33px;
+    background-color: black;
+    border: solid white;
+}
+
+#text {
+    height: 152px;
+}
+
+h4 {
+    width: 49%;
+    font-size: 44px;
+    color: rgb(245, 203, 0);
+}
+
+.text-suscribe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-suscribe p {
+    width: 39%;
+}
+
+.contact {
+    background-color: rgb(245, 203, 0);
+}
+h5{
+    font-size: 50px;
+    font-family: monospace;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 59px 0 57px 0;
+}
+.end{
+    padding: 62px 0 155px 57px;
+    background-color: black;
+    color: rgb(245, 203, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 127px;
+}
+.content-end{
+    display: flex;
+    gap: 50px;
+}
+.list-1 ul,
+.list-2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    font-weight: bold;
+}
+.line{
+    background-color: white;
+    width: 95%;
+    height: 1px;
+    margin: auto;
+}
+footer{
+    color: rgb(245, 203, 0);
+    background-color: black;
+}
+.content-footer{
+    padding: 57px 54px 69px 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-footer img{
+    filter: invert(76%) sepia(97%) saturate(471%) hue-rotate(0deg);
+}
+.img-footer{
+    display: flex;
+    gap: 24px;
+}
