@@ -26,7 +26,7 @@ ul {
 .how-happy img {
     max-width: 50%;
     height: auto;
-    margin: 77px 124px 310px 82px;
+    margin: 77px 124px 0 82px;
 }
 
 .text-happy {
@@ -53,12 +53,13 @@ h1 {
 .can-help {
     background-color: rgb(245, 203, 0);
     display: flex;
-    align-items: center;
+    padding-top: 230px;
+    flex-direction: column;
 }
 
 .text-help {
     width: 30%;
-    margin: 143px 0 445px 98px;
+    margin: 143px 0 0 98px;
 }
 
 .text-help p {
@@ -76,18 +77,26 @@ h1 {
     display: flex;
     align-items: flex-start;
     gap: 48px;
-    margin: 93px 127px 93px 103px;
+    width: 65%;
+    margin: 93px auto 93px auto;
     background-color: rgb(230, 230, 230);
 }
 
+#img-happi1{
+    width: auto;
+}
+.izquierda,
+.derecha{
+    width: 50%;
+}
 .happiness-text {
-    width: 30%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
 
 .happiness-text p {
-    width: 64%;
+    width: 68%;
 }
 
 h2 {
@@ -119,15 +128,13 @@ h2 {
 
 .our-team {
     gap: 73px;
+    padding-left: 30px;
     margin: 120px 0 124px 0;
     justify-content: flex-end;
     display: flex;
 }
 
-img {
-    max-width: 50%;
-    height: auto;
-}
+
 
 .text-team {
     width: 50%;
@@ -290,4 +297,54 @@ footer{
 .img-footer{
     display: flex;
     gap: 24px;
+}
+.happiness-numb{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    max-width: 70%;
+    height: 404px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    top: 216px;
+    padding: 0 0 0 72px;
+}
+.text-numb{
+    width: 54%;
+}
+.text-numb h2{
+    width: 67%;
+    padding: 0;
+}
+.text-numb p{
+    width: 37%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.img-numb{
+    display: flex;
+    gap: 60px;
+    max-width: 35%;
+}
+.img-help{
+    max-width: 50%;
+    translate: 538px -220px;
+}
+#img-help{
+    max-width: 80%;
+    height: 553px;
+}
+#img-happi{
+    max-width: 50%;
+    margin: 30px 0 0 162px;
+}
+#img-about{
+    max-width: 80%;
+    height: 544px;
+}
+img{
+    max-width: 50%;
 }
