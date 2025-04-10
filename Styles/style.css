@@ -655,4 +655,45 @@ img {
     .img-footer{
         padding-top: 20px;
     }
+    #img-help {
+        max-width: 146%;
+        height: 250px;
+    }
+    .text-help {
+        width: 79%;
+    }
+    .happiness-content {
+        width: 77%;
+    
+    }
+    #img-happi1 {
+        max-width: 61%;
+    }
+    #img-happi {
+        max-width: 62%;
+    }
+    .about p{
+        width: 76%;
+    }
+    #img-about {
+        height: 247px;
+    }
+    .text-team {
+        width: 100%;
+    }
+    img {
+        max-width: 82%;
+    }
+    .img-numb {
+        justify-content: center;
+    }
+    .happiness-numb{
+        max-width: 75%;
+    }
+    .text-method{
+        width: 100%;
+    }
+    .text-suscribe {
+        width: 100%;
+    }
 }
