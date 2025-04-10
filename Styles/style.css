@@ -20,13 +20,14 @@ ul {
 
 .how-happy {
     display: flex;
+    gap: 120px;
     width: 100%;
 }
 
 .how-happy img {
     max-width: 50%;
     height: auto;
-    margin: 77px 124px 0 82px;
+    margin: 77px 0 0 82px;
 }
 
 .text-happy {
@@ -82,13 +83,10 @@ h1 {
     background-color: rgb(230, 230, 230);
 }
 
-#img-happi1{
-    width: auto;
+#img-happi1 {
+    width: 610px;
 }
-.izquierda,
-.derecha{
-    width: 50%;
-}
+
 .happiness-text {
     width: 80%;
     display: flex;
@@ -221,8 +219,8 @@ h3 {
     border: solid white;
 }
 
-#text {
-    height: 152px;
+.text1 {
+    height: 152px !important;
 }
 
 h4 {
@@ -245,18 +243,21 @@ h4 {
 .contact {
     background-color: rgb(245, 203, 0);
 }
-h5{
+
+h5 {
     font-size: 50px;
     font-family: monospace;
 }
-.contact-content{
+
+.contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 35px;
     padding: 59px 0 57px 0;
 }
-.end{
+
+.end {
     padding: 62px 0 155px 57px;
     background-color: black;
     color: rgb(245, 203, 0);
@@ -265,40 +266,48 @@ h5{
     align-items: flex-start;
     gap: 127px;
 }
-.content-end{
+
+.content-end {
     display: flex;
     gap: 50px;
 }
+
 .list-1 ul,
-.list-2 ul{
+.list-2 ul {
     display: flex;
     flex-direction: column;
     gap: 0;
     font-weight: bold;
 }
-.line{
+
+.line {
     background-color: white;
     width: 95%;
     height: 1px;
     margin: auto;
 }
-footer{
+
+footer {
     color: rgb(245, 203, 0);
     background-color: black;
 }
-.content-footer{
+
+.content-footer {
     padding: 57px 54px 69px 57px;
     display: flex;
     justify-content: space-between;
 }
-.content-footer img{
+
+.content-footer img {
     filter: invert(76%) sepia(97%) saturate(471%) hue-rotate(0deg);
 }
-.img-footer{
+
+.img-footer {
     display: flex;
     gap: 24px;
 }
-.happiness-numb{
+
+.happiness-numb {
     background-color: rgb(230, 230, 230);
     display: flex;
     max-width: 70%;
@@ -307,44 +316,343 @@ footer{
     position: relative;
     align-items: center;
     top: 216px;
-    padding: 0 0 0 72px;
+    padding-left:  72px;
 }
-.text-numb{
+
+.text-numb {
     width: 54%;
 }
-.text-numb h2{
+
+.text-numb h2 {
     width: 67%;
     padding: 0;
 }
-.text-numb p{
+
+.text-numb p {
     width: 37%;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-.img-numb{
+
+.img-numb {
     display: flex;
     gap: 60px;
     max-width: 35%;
 }
-.img-help{
+
+.img-help {
+    display: flex;
+    justify-content: center;
     max-width: 50%;
     translate: 538px -220px;
 }
-#img-help{
+
+#img-help {
     max-width: 80%;
     height: 553px;
 }
-#img-happi{
-    max-width: 50%;
+
+#img-happi {
+    max-width: 37%;
     margin: 30px 0 0 162px;
 }
-#img-about{
+
+#img-about {
     max-width: 80%;
     height: 544px;
 }
-img{
+
+img {
     max-width: 50%;
+}
+
+@media screen and (max-width: 1652px) {
+    .text-help {
+        width: 43%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .text-numb p {
+        width: 71%;
+    }
+
+    .text-numb h2 {
+        width: 91%;
+    }
+}
+@media screen and (max-width:1446px) {
+    #img-happi {
+        margin: 5px 0 0 138px;
+    }
+    .happiness-text p {
+        font-size: 12px;
+        width: 85%;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .happiness-content{
+        gap: 30px;
+    }
+}
+@media screen and (max-width:1240px) {
+    .method {
+        gap: 0;
+        padding: 73px 0 74px 0;
+        justify-content: space-evenly;
+    }
+
+    .text-method {
+        width: 39%;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    h4 {
+        width: 86%;
+        font-size: 35px;
+    }
+
+    .suscribe-father {
+        gap: 50px;
+        padding: 83px 0 83px 52px;
+    }
+
+    .text-suscribe p {
+        width: 66%;
+    }
+
+    .text-team p {
+        width: 70%;
+    }
+
+    .img-help {
+        max-width: 50%;
+        translate: 497px -124px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .how-happy {
+        gap: 40px;
+    }
+
+    .text-happy {
+        width: 35%;
+    }
+
+    #name,
+    #surname {
+        width: 190px;
+        height: 33px;
+    }
+
+    #email,
+    #password,
+    #text {
+        width: 400px;
+        height: 33px;
+    } 
+    .suscribe-form{
+        width: 550px;
+        height: 500px;
+        padding: 32px 0 26px 0;
+    }
+}
+@media screen and (max-width: 1108px) {
+    .btn-more{
+        width: 131px;
+        height: 34px;
+    }
+    #img-happi{
+        margin-top: -30px;
+    }
+    h2 {
+        padding-top: 32px;
+        font-size: 31px;
+    }
+}
+@media screen and (max-width:995px) {
+    #img-help {
+        max-width: 75%;
+        height: 394px;
+    }
+    .img-help {
+        max-width: 50%;
+        translate: 362px -124px;
+    }
+    .text-help {
+        width: 53%;
+    }
+    .img-numb {
+        display: flex;
+        gap: 20px;
+        max-width: 35%;
+    }
+    #img-happi{
+        margin: -68px 0px 0px 151px;
+    }
+    .happiness-text p {
+        font-size: 12px;
+        width: 98%;
+    }
+}
+@media screen and (max-width:815px) {
+    .how-happy {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-happy {
+        width: 62%;
+        text-align: center;
+    }
+    .how-happy img {
+        margin: auto;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    .can-help{
+        align-items: center;
+        text-align: center;
+    }
+    .happiness-numb {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }    
+    .img-numb {
+        padding-top: 35px;
+    }
+    
+    .text-numb h2,
+    .text-numb p,
+    .text-help p{
+        width: auto;
+    }
+    .text-help {
+        margin: 40px;
+    }
+    .img-help{
+        translate: 0;
+    }
+    #img-help {
+        max-width: 75%;
+        height: 311px;
+        margin: 40px;
+    }
+    #img-about {
+        max-width: 65%;
+        height: 405px;
+    }
+    .our-team{
+        padding: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-team{
+        text-align: center;
+        align-items: center;
+        width: 84%;
+    }
+    .method{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-method{
+        align-items: center;
+        text-align: center;
+        width: 75%;
+        padding-bottom: 30px;
+    }
+    .suscribe-father{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 0 40px 0;
+    }
+    .text-suscribe{
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+    .suscribe-form {
+        width: 470px;
+        height: 477px;
+    }
+    #email, #password, #text {
+        width: 322px;
+    }
+    #name, #surname {
+        width: 150px;
+    }
+    #p-form{
+        text-align: center;
+    }
+    .happiness-content{
+        width: 58%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .happiness-text {
+        align-items: center;
+        text-align: center;
+    }
+    #img-happi1{
+        padding-top: 36px;
+        border-radius: 40px;
+    }
+    #img-happi {
+        margin: 20px;
+    }
+}
+@media screen and (max-width:552px) {
+    header{
+        flex-direction: column;
+        font-size: 12px;
+    }
+    ul{
+        padding-top: 20px;
+        gap: 19px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .suscribe-form {
+        width: 273px;
+        height: 504px;
+    }
+    #name, #surname {
+        width: 107px;
+        height: 25px;
+    }
+    #email, #password, #text {
+        width: 229px;
+    }
+    #p-form {
+        font-size: 11px;
+        width: 83%;
+    }
+    .content-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .end{
+        padding: 44px 0 67px 19px;
+    }
+    .img-footer{
+        padding-top: 20px;
+    }
 }
